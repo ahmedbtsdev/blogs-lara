@@ -35,9 +35,6 @@ Beside Laravel, this project uses other tools like:
 - [hotwired-laravel/turbo-laravel](https://github.com/hotwired-laravel/turbo-laravel)
 - Many more to discover.
 
-## Some screenshots
-
-You can find some screenshots of the application on : [https://imgur.com/a/Jbnwj](https://imgur.com/a/Jbnwj)
 
 ## Installation
 
@@ -45,8 +42,7 @@ To create your development environment [follow these instructions](https://larav
 
 Setting up your development environment on your local machine:
 ```bash
-$ git clone https://github.com/guillaumebriday/laravel-blog.git
-$ cd laravel-blog
+
 $ cp .env.example .env
 $ php artisan key:generate
 $ php artisan horizon:install
@@ -64,12 +60,6 @@ Once installed, open [http://localhost:8025](http://localhost:8025).
 You need to run the migrations with the seeds :
 ```bash
 $ php artisan migrate --seed
-```
-
-This will create a new user that you can use to sign in :
-```yml
-email: darthvader@deathstar.ds
-password: 4nak1n
 ```
 
 And then, compile the assets :
